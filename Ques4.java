@@ -36,7 +36,7 @@ public class Ques4 {
 		 * array[i] is compared against array[j], 
 		 * if array[i] is greater than array[j],then the values are switched and array[j+1] 
 		 * if array[i] is less than array[j] then array[j+1] 
-		 * this is repeated until array[j] is equal to the length of the array then array[i+1} 
+		 * this is repeated until array[j] is equal to the length of the array, then array[i+1} 
 		 * Repeat until array[i] is equal to the length of the array
 		 */
 		for (int i = 0; i < array.length; i++) {
