@@ -33,11 +33,11 @@ public class Ques6 {
 
 		// Calculating sum of user input numbers
 		for (i = 0; i < length; i++) {
-			realSum = nums[i] + realSum;
+			realSum += nums[i];
 		}
 		// Calculating sum of numbers between 0 and array length
 		for (i = 0; i <= length; i++) {
-			maxSum = (length - i) + maxSum;
+			maxSum += (length - i);
 		}
 		// Subtracting sum of input numbers from sum of total array length
 		return (maxSum - realSum);
