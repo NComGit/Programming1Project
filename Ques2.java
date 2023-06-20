@@ -11,17 +11,17 @@ public class Ques2 {
 		int joker, quant, i;
 
 		// Establishing joker
-		System.out.print("Please input a number, that will henceforth be known as joker: ");
+		System.out.println("Please input joker: ");
 		joker = kb.nextInt();
 
 		// Establishing quantity of numbers that will be compared against joker
-		System.out.print("Please input the quantity of numbers: ");
+		System.out.println("Please input the quantity of numbers: ");
 		quant = kb.nextInt();
 
 		int array[] = new int[quant];
 
 		// Establishing numbers that will be compared against joker
-		System.out.printf("Please input %d numbers: ", quant);
+		System.out.printf("Please input %d numbers: \n", quant);
 		for (i = 0; i < quant; i++) {
 			array[i] = kb.nextInt();
 		}
@@ -38,7 +38,7 @@ public class Ques2 {
 			}
 			System.out.print(array[i] + " ");
 		}
-		
+
 		kb.close();
 	}
 }
